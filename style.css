@@ -1,0 +1,55 @@
+body {
+	background-color: #1b1b1b;;
+
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2 {
+	margin-bottom: 5px;
+}
+
+
+
+a {
+	background-color: #282828;
+	padding: 6px 7px;
+
+	border-radius: 12px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #3c3c3c;
+	
+	text-decoration: none;
+	color: #71a7ff;
+
+	display: inline-block;
+}
+
+.smart-link .hover-text {
+	display: none;
+}
+
+.smart-link:hover .normal-text {
+	display: none;
+}
+
+.smart-link:hover .hover-text {
+	display: inline;
+}
+
+
+
+#clickCanvas {
+	position: relative;
+	background-color: #282828;
+
+	border-radius: 12px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #3c3c3c;
+
+	width: 550px;
+	height: 350px;
+}
